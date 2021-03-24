@@ -1,12 +1,13 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
-
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+Desarrolla una clase Cafetera con atributos capacidadMaxima (la cantidad máxima de café que
+puede contener la cafetera) y cantidadActual (la cantidad actual de café que hay en la cafetera).
+Implementa, al menos, los siguientes métodos:
+Constructor predeterminado: establece la capacidad máxima en 1000 (c.c.) y la actual en cero
+(cafetera vacía).
+Constructor con la capacidad máxima de la cafetera; inicializa la cantidad actual de café igual a la
+capacidad máxima.
+Getters y Setters.
+llenarCafetera(): hace que la cantidad actual sea igual a la capacidad.
+servirTaza(int): simula la acción de servir una taza con la capacidad indicada. Si la cantidad actual
+de café “no alcanza” para llenar la taza, se sirve lo que quede.
+vaciarCafetera(): pone la cantidad de café actual en cero.
+agregarCafe(int): añade a la cafetera la cantidad de café indicada�
